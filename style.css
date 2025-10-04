@@ -39,3 +39,6 @@ h2{
     @apply lobster-regular text-yellow-500;
 }
 
+html{
+  scroll-behavior: smooth;
+}
