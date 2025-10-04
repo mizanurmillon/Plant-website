@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.jost-regular {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+.lobster-regular {
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+body{
+    @apply bg-green-950 text-white jost-regular tracking-wide;
+    @apply p-0 m-0;
+}
+
+section{
+    @apply py-20 md:py-28;       
+}
+
+h1{
+    @apply text-2xl md:text-3xl lg:text-4xl ;
+}
+
+h2{
+    @apply text-2xl md:text-3xl lg:text-4xl font-bold;
+}
+
+.title{
+    @apply lobster-regular text-yellow-500;
+}
+
